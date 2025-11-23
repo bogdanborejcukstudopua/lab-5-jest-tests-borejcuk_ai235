@@ -1,0 +1,23 @@
+{
+  "name": "unit-integration-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "cross-env TESTOMATIO='tstmt_6AkP-6fgLgI-Qz3uS6xnFb4ut8YWTg813g1763861778' JEST_SUITE_NAME=\"Lab 5 Run\" jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@testomatio/reporter": "^1.6.17",
+    "cross-env": "^10.1.0",
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "tslib": "^2.8.1"
+  }
+}
