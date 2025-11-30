@@ -1,7 +1,6 @@
 // Функція для додавання чисел
-// Оновлено для перевірки CI
 function add(a, b) {
-    return a + b;
+    return a + b; // Виправлено! Прибрали +1
 }
 
 module.exports = add;
